@@ -24,6 +24,36 @@ nav {
   margin-left: 20px;
 }
 
+.address-selector-container {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: rgb(214, 239, 250);
+  margin-left: 15px;
+}
+.address-selector-icon {
+  fill: rgb(0, 157, 224);
+  height: 25px;
+}
+.dropdown-icon-container {
+  /* width: 20px;
+  height: 20px; */
+  fill: #009de0;
+  display: flex;
+  align-items: center;
+}
+.location,
+.dropdown-icon-container {
+  margin-left: 20px;
+}
+.dropdown-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
 .left-bar {
   display: flex;
   justify-content: space-around;
@@ -38,15 +68,22 @@ nav {
   border-radius: 30px;
   border: none;
   padding: 0px 40px;
-  background-color: #2021251f;
+  background-color: #e4e4e4;
   font-size: 16px;
   padding: 12px 60px 12px 10px;
+  display: flex;
+  justify-content: flex-start;
 }
-
+.search-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
 .nav-search-input {
   border: none;
-  background-color: inherit;
+  background-color: #e4e4e4;
   color: rgba(32, 33, 37, 0.2);
+  margin-left: 10px;
 }
 
 .right-bar {
@@ -68,4 +105,56 @@ nav {
   background-color: #ebf7fd;
   border: none;
   font-size: 18px;
+}
+
+.second-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.esittely-button {
+  border-radius: 20px;
+  border: none;
+  background-color: #009de0;
+  color: white;
+  /* width: 130px; */
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+.ravintolat-button {
+  border-radius: 20px;
+  /* background-color: grey; */
+  display: flex;
+  justify-content: center;
+  border: none;
+  color: #202125a3;
+  padding: 10px 20px;
+
+  font-size: 18px;
+}
+.ravintolat-icon {
+  width: 25px;
+  height: 20px;
+}
+.ravintolat-text {
+  margin-left: 10px;
+}
+
+.esittely-button {
+  display: flex;
+  justify-content: center;
+  border: none;
+  color: #202125a3;
+  background-color: rgb(0, 157, 224);
+  color: white;
+
+  font-size: 18px;
+}
+.esittely-icon {
+  width: 25px;
+  height: 20px;
+}
+.esittely-text {
+  margin-left: 10px;
 }
